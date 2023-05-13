@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta name="theme-color" content="#333333" />
+		<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_layout-c297bb37.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/codemirror-f9a2d0c7.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/start-88ca957e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-90fe3501.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-37c91c7d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-15bbc983.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores-6b826757.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ga-f2416bc8.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/toast-6d7765c1.js">
+		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/repl/_page.svelte-5aaf4453.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/navigation-c7bd922a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/debounce-8863b0ac.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/footer-88b4acc5.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/loader-19cd47b7.js">
+		<script>
+			if ('serviceWorker' in navigator) {
+				addEventListener('load', function () {
+					navigator.serviceWorker.register('./service-worker.js');
+				});
+			}
+		</script><title>Try markmap</title><!-- HEAD_svelte-lvhij9_START --><meta name="Description" content="Try the markmap REPL here."><!-- HEAD_svelte-lvhij9_END -->
+	</head>
+	<body>
+		
+
+
+
+	<nav><ul class="flex"><li><a href="/">home</a>
+			</li><li><a aria-current="page" href="/repl">try it out</a>
+			</li><li><a href="/docs">docs</a>
+			</li>
+		<li class="flex-1"></li>
+		<li class="items-center hidden md:flex"></li>
+		<li><a href="https://github.com/markmap/markmap" target="_blank" rel="noreferrer noopener">GitHub</a></li>
+		<li><a href="https://gera2ld.space/donate/" target="_blank" rel="noreferrer noopener">donate</a></li></ul></nav>
+	
+
+
+<div class="fixed z-10 hidden md:block" style="top:15px;left:50%"><a class="inline-block text-sm text-orange-600 underline" href="https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode" target="_blank" rel="noreferrer noopener" data-ga-label="markmapVSCodeFromREPL">Markmap in VSCode!
+	</a></div>
+<main class="inner flex flex-col md:fs"><div class="flex items-center mb-4 text-sm whitespace-nowrap overflow-auto"><a>Open URL</a>
+			<span class="ml-4"><a data-ga-label="solidColor">Use solid color
+					</a></span>
+			<a class="ml-4" data-ga-label="wrapLongText">Wrap long text
+				</a>
+			<span class="ml-4"><a class="" data-ga-label="embedAssets">Embed assets</a>
+					<sup><a class="no-underline " data-ga-label="embedAssetsHelp">?
+						</a></sup></span>
+			<a class="ml-4" data-ga-label="expandLevel">Limit expand level</a>
+			<a class="ml-4" href="/docs/json-options">Learn more</a></div>
+	<div class="flex-1 md:flex min-h-0 repl"><div class="flex-1 min-w-0 border border-gray-300"><textarea class="w-full h-full p-1"></textarea></div>
+		<div class="flex-1 min-w-0 flex flex-col"><iframe class="markmap-wrapper flex-1" src="/inner"></iframe>
+			<div><div class="inline-block px-4 py-2"><a>Download as interactive HTML </a></div>
+				<div class="inline-block px-4 py-2" title="SVG export does not work well with PrismJS and Katex"><a>Download as SVG</a>
+					<span class="text-red-500">⚠️</span></div></div></div></div></main>
+<footer>Designed with ♥ by <a href="https://github.com/gera2ld" target="_blank" rel="noreferrer noopener">gera2ld</a></footer>
+
+
+
+<div class="toast-wrapper"></div>
+
+
+
+
+		<script type="module" data-sveltekit-hydrate="16ef77f">
+			import { start } from "./_app/immutable/start-88ca957e.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="16ef77f"]').parentNode,
+				version: "1683959579258",
+				hydrate: {
+					node_ids: [0, 7],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	
+	</body>
+</html>
